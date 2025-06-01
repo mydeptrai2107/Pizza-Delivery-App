@@ -98,6 +98,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
         'address': _addressController.text,
         'items': cartItems,
         'totalPrice': totalPrice,
+        'payMentMethod': paymentMethod,
         'timestamp': FieldValue.serverTimestamp(),
         'status': 'Đang xử lý',
       });

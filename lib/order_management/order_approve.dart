@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:pizza_delivery_app/core/color_app.dart';
 import 'package:pizza_delivery_app/core/formatter.dart';
 
 class OrderManagerPage extends StatefulWidget {
@@ -176,6 +177,10 @@ class _OrderManagerPageState extends State<OrderManagerPage> {
           )
         : 'Không rõ';
 
+    final String paymentMethod = order['payMentMethod'] == "cash"
+        ? "Thanh toán khi nhận hàng"
+        : "Đã thanh toán";
+
     final List<dynamic> items = order['items'] ?? [];
 
     return Card(
@@ -216,10 +221,18 @@ class _OrderManagerPageState extends State<OrderManagerPage> {
             ),
             const SizedBox(height: 4),
             Text('Thời gian: $date', style: TextStyle(color: Colors.grey)),
+            const SizedBox(height: 4),
+            Text(
+              paymentMethod,
+              style: TextStyle(
+                color: ColorApp.primary,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
             const SizedBox(height: 12),
 
             // Danh sách món
-            ...items.map((item) => _buildItemTile(item)).toList(),
+            ...items.map((item) => _buildItemTile(item)),
 
             const Divider(height: 15),
             Row(
