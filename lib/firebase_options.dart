@@ -41,49 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCL8z4VSeeeOtAvV6SaVRp3MybLAoyFEFg',
-    appId: '1:166202283309:web:a40550c217edfc29ae6fa4',
-    messagingSenderId: '166202283309',
-    projectId: 'pizza-store-9f6ad',
-    authDomain: 'pizza-store-9f6ad.firebaseapp.com',
-    storageBucket: 'pizza-store-9f6ad.firebasestorage.app',
-    measurementId: 'G-WPQG034NYX',
+    apiKey: 'AIzaSyDr5styjP3-Qvty5-Vg_2HwogvwMD6xrW4',
+    appId: '1:930666915254:web:087180fb67b4f09a8f0d17',
+    messagingSenderId: '930666915254',
+    projectId: 'foody-e611a',
+    authDomain: 'foody-e611a.firebaseapp.com',
+    storageBucket: 'foody-e611a.firebasestorage.app',
+    measurementId: 'G-Q908V3133Y',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBSv3Tp46AjDF2RcizRWRJfK8zmqHVnwr8',
-    appId: '1:166202283309:android:746c1981af699048ae6fa4',
-    messagingSenderId: '166202283309',
-    projectId: 'pizza-store-9f6ad',
-    storageBucket: 'pizza-store-9f6ad.firebasestorage.app',
+    apiKey: 'AIzaSyDTkSkTzBvbJDmLcdCNwDUqz_0-eJh_aWA',
+    appId: '1:930666915254:android:f569ef904ad5dd0f8f0d17',
+    messagingSenderId: '930666915254',
+    projectId: 'foody-e611a',
+    storageBucket: 'foody-e611a.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD3GgHQO79msbFrFK5ntmA4iT8IPeKdbRo',
-    appId: '1:166202283309:ios:4e033591738fdbb1ae6fa4',
-    messagingSenderId: '166202283309',
-    projectId: 'pizza-store-9f6ad',
-    storageBucket: 'pizza-store-9f6ad.firebasestorage.app',
+    apiKey: 'AIzaSyCHjfaX6mbhOINpMMdPdG4-QQdfESrdw5Q',
+    appId: '1:930666915254:ios:c930c4b7e4a4cbf58f0d17',
+    messagingSenderId: '930666915254',
+    projectId: 'foody-e611a',
+    storageBucket: 'foody-e611a.firebasestorage.app',
     iosBundleId: 'com.example.pizzaDeliveryApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD3GgHQO79msbFrFK5ntmA4iT8IPeKdbRo',
-    appId: '1:166202283309:ios:4e033591738fdbb1ae6fa4',
-    messagingSenderId: '166202283309',
-    projectId: 'pizza-store-9f6ad',
-    storageBucket: 'pizza-store-9f6ad.firebasestorage.app',
+    apiKey: 'AIzaSyCHjfaX6mbhOINpMMdPdG4-QQdfESrdw5Q',
+    appId: '1:930666915254:ios:c930c4b7e4a4cbf58f0d17',
+    messagingSenderId: '930666915254',
+    projectId: 'foody-e611a',
+    storageBucket: 'foody-e611a.firebasestorage.app',
     iosBundleId: 'com.example.pizzaDeliveryApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCL8z4VSeeeOtAvV6SaVRp3MybLAoyFEFg',
-    appId: '1:166202283309:web:d1c971ab44897aaeae6fa4',
-    messagingSenderId: '166202283309',
-    projectId: 'pizza-store-9f6ad',
-    authDomain: 'pizza-store-9f6ad.firebaseapp.com',
-    storageBucket: 'pizza-store-9f6ad.firebasestorage.app',
-    measurementId: 'G-3FFLD2GTFG',
+    apiKey: 'AIzaSyDr5styjP3-Qvty5-Vg_2HwogvwMD6xrW4',
+    appId: '1:930666915254:web:4ab77c24916f4ee18f0d17',
+    messagingSenderId: '930666915254',
+    projectId: 'foody-e611a',
+    authDomain: 'foody-e611a.firebaseapp.com',
+    storageBucket: 'foody-e611a.firebasestorage.app',
+    measurementId: 'G-QZ63DJ9CHS',
   );
 
 }
